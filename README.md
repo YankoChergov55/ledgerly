@@ -21,10 +21,11 @@ Practice using SQL in building API applications
 
 ## ✅ TODO
 
-- [ ] custom appConfig
-- [ ] Error handling + custom error class
+- [x] custom appConfig
+- [x] Error handling + custom error class
 - [ ] CRUD routes
 - [ ] connect to postgres
+- [ ] run routes to try db connection, error handling
 
 ---
 
