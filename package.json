@@ -1,0 +1,43 @@
+{
+	"name": "ledgerly",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.ts",
+	"type": "module",
+	"scripts": {
+		"dev": "tsc --noEmit && nodemon src/app.ts"
+	},
+	"dependencies": {
+		"cookie-parser": "^1.4.7",
+		"cors": "^2.8.5",
+		"dotenv": "^17.2.1",
+		"express": "^5.1.0",
+		"helmet": "^8.1.0",
+		"pg": "^8.16.3"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.32.0",
+		"@types/cookie-parser": "^1.4.9",
+		"@types/cors": "^2.8.19",
+		"@types/express": "^5.0.3",
+		"@types/node": "^24.1.0",
+		"@types/pg": "^8.15.5",
+		"eslint": "^9.32.0",
+		"eslint-config-prettier": "^10.1.8",
+		"eslint-plugin-prettier": "^5.5.3",
+		"globals": "^16.3.0",
+		"nodemon": "^3.1.10",
+		"pino": "^9.7.0",
+		"pino-http": "^10.5.0",
+		"pino-pretty": "^13.1.1",
+		"prettier": "^3.6.2",
+		"tsx": "^4.20.3",
+		"typescript": "5.8",
+		"typescript-eslint": "^8.38.0"
+	},
+	"prettier": {
+		"useTabs": true,
+		"printWidth": 120,
+		"singleQuote": true
+	}
+}
